@@ -3,7 +3,10 @@ import java.text.DecimalFormat;
 import java.util.*;
 
 /**
- * 
+ * This class helps the user find least cost service based on the shopping list
+ * that they provide to the program. It does so by searching through inventories of
+ * services provided in a config file and comparing the total costs of each store
+ * against each other.
  * @author Dan Tat
  *
  */
