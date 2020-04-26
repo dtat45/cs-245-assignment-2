@@ -1,0 +1,17 @@
+--------- Question 1 ---------
+
+The driver function reads the config files and stores related information (store, store file, delivery fees) into Lists. 
+After the List are initialized, the user is prompted to enter their desired item, the size of the item, and the quantity
+desired. If the item and size finds a match in a service's inventory, the cost of the item is added to the total
+cost, with respect to that service, and the user is prompted to add another item. The requested item is 
+searched for in each service. If no service contains the requested item in their inventory, the user is 
+also prompted to enter a new item. If the user enters 'done', choosing not to enter another item, the service
+that contains all requested items and has the cheapest cost will be displayed, along with the total cost.
+
+--------- Question 2 ---------
+
+This implementation of the ALaCarte assignment integrates the List interface. This class stores the services, the name of their inventory 
+file, and total cost in a List. The services List ('storeList') holds the names of each service to be referenced when the user is finished
+shopping. The inventory file List ('storeFiles') holds the file names of each service to be referenced when checking if the requested item 
+is found in the service's inventory. The total cost List ('totalCosts') is used to keep track of the total cost of the user's request items.
+Additionally, it contains a boolean List ('hasAllItems') that is used to check if each service's inventory contains all the requested items.

@@ -1,0 +1,2 @@
+service=Prime, amazon.csv, 4.00
+service=Instacart, instacart.csv, 5.99
